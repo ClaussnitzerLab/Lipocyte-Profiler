@@ -16,7 +16,7 @@ nerd_data<-read.csv(file = 'nerdData.csv')
 
 meta_geno<-read.csv(file = "Metadata - Geno.csv")
 
-PRS<-read.csv(file = "PRS_all_0503.csv")
+PRS<-read.csv(file = "PRS_all_0403.csv")
 
 merged_meta<-merge(x = meta_geno, y = PRS, by = "patientID", sort = FALSE)
 
