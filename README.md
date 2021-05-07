@@ -27,8 +27,9 @@ Imaging based high-throughput profiling data of samples derived from different d
 - We performed a k-nearest neighbour (knn) supervised machine learning algorithm implemented in the “class” R package to investigate the accuracy of predicting biological and technical variation. For this analysis the data set, consisting of 3 different cell types (hWAT, hBAT, SGBS) distributed on the 96-well plate, imaged at 4 days of differentiation, was split into equally balanced testing (n=18) and training (n=56) sets. Accuracy of the classification model was predicted based on three different categories cell type, batch and column of the 96-well plate. (_knn-analysis of hWAT hBAT SGBS.R_; Figure S2)
 
 #### _Networks_
-Networks of LipocyteProfiles and RNA-seq data link gene sets with morphological and cellular features, capturing a broad range of cell activity and identifying relevant cellular processes. We generated those networks using a linear regression model across 2,760 LipocyteProfiler features and expression of 52,170 genes across differentiation in both adipocytes depot. (_LMM_gene_LP.R_; Figure 3). Using this network we interrogated association of expression of a specific gene to LP features (_LP gene profile - features extraction.R Figure 3c_) or identified transcriptional pathways of a specific LP feature and correlated genes. (_Enrichr pathway analysis.R_;  Figure 3b)   
-- Visualisation tools: 
+Networks of LipocyteProfiles and RNA-seq data link gene sets with morphological and cellular features, capturing a broad range of cell activity and identifying relevant cellular processes. We generated those networks using a linear regression model across 2,760 LipocyteProfiler features and expression of 52,170 genes across differentiation in both adipocytes depot. (_LMM_gene_LP.R_; Figure 3). Using this network we interrogated association of expression of a specific gene to LP features (_LP gene profile - features extraction.R Figure 3c_) or identified transcriptional pathways of a specific LP feature and correlated genes. (_Enrichr pathway analysis.R_;  Figure 3b)
+
+   - Visualisation tools: 
         - Network using “igraph” R package (_visualisation of LMM network.R_; Figure 3b) 
         - Heatmap of LipocyteProfile of genes (_visualisation LP profile of gene - heatmap_; Figure 3c)
 
