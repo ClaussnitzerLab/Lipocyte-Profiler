@@ -31,7 +31,7 @@ Networks of LipocyteProfiles and RNA-seq data linked gene sets with morphologica
 
    - Visualisation tools: 
         - Network using “igraph” R package (_visualisation of LMM network.R_; Figure 3b) 
-        - Heatmap of LipocyteProfile of genes (_visualisation LP of gene - heatmap_; Figure 3c)
+        - Heatmap of LipocyteProfile of marker genes (_visualisation LP of gene - heatmap_; Figure 3c)
 
 
 
