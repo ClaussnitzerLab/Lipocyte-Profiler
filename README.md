@@ -8,7 +8,7 @@ LipocyteProfiler is an unbiased high-throughput microscopy profiling assay that 
 LipocyteProfiles (LP) are generated from 3,005 morphological and cellular features that map to three cellular compartments (Cell, Cytoplasm, Nucleus) across four channels differentiating the organelles, namely DNA (Hoechst), Mito (MitoTracker Red which stains mitochondria), AGP (actin, golgi, plasma membrane; stained with Phalloidin (F-actin cytoskeleton) and Wheat Germ Agglutinin (golgi and plasma membranes), and Lipid (BODIPY, which stains neutral lipids, multiplexed with SYTO14, which stains nucleoli and cytoplasmic RNA). We showed that LipocyteProfiles can be used to survey diverse cellular mechanisms of cell types, polygenic-risk of metabolic disease and allelic-risk of common complex diseases
 
 - LipocyteProfiles of white adipocytes compared to brown adipocytes (_generation of LP - different cell types.R_; Figure 1g)
-- LipocyteProfiles of subcutaneous vs. visceral adipocytes across differentiation (_generation of UMAP LP.R_; Figure 1g)
+- LipocyteProfiles of subcutaneous vs. visceral adipocytes across differentiation (_generation of UMAP LP.R_; Figure 2b)
 - LipocyteProfiles of AMSCs treated with isoproterenol (_generation of LP - isproterenol treatment.R_; Figure 4b)
 - LipocyteProfiles of primary human hepatocytes with several drug treatments (_generation of LP in hepatocytes with drug treatment.R_; Figure; 4f+h) 
 - LipocyteProfiles of tail ends of polygenic-risk of insulin resistance (_generation of LP - high vs low polygenic risk.R_; Figure 5b)  
