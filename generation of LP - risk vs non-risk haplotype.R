@@ -8,7 +8,7 @@ setwd("/Users/sophiestrobel/Desktop/LP/data raw/LP data import")
 #merged_locus<-merge(x = SNPs, y = combined_data, by = "patientID", all.y = T, sort = FALSE)
 
 ###load LP data set#####
-combined_data<-read.csv(file = "LP_data.csv.csv")
+combined_data<-read.csv(file = "LP_data.csv")
 
 
 ######subset depending on which anylsis you want to run
