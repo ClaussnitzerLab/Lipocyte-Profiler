@@ -2,7 +2,7 @@
 #####set directory####
 setwd("/Users/slaber/Desktop/")
 #####load input files#####
-sig<-read.csv(file="Cells_significants.csv")
+sig<-read.csv(file="Cells_significants_LMM_5FDR.csv")
 
 significant_features<-sig[,-c(1, 2)]
 
