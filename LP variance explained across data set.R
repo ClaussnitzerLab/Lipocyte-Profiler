@@ -8,7 +8,7 @@
 setwd("/Users/sophiestrobel/Desktop/LP/data raw/")
 
 ######import data####
-#combined_data<-read.csv(file = 'LP data import.csv')
+#combined_data<-read.csv(file = 'LP_data_import.csv')
 #combined_data<-combined_data[,-1]
 
 ###subset data#####
