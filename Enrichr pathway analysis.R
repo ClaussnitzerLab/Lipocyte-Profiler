@@ -3,8 +3,9 @@
 setwd("/Users/slaber/Desktop/")
 
 #####load gene list for pathway enrichemnet####
+LP<-read.csv(file="Cells_Granularity_10_Mito_LMM.csv")
 ##eg. connections between LP feature and gene
-LP<-subset(pie_3, pie_3$variable == "Cells_Granularity_10_Mito")
+#LP<-subset(pie_3, pie_3$variable == "Cells_Granularity_10_Mito")
 
 library(enrichR)
 #####define pathway enrichment gene list you want to use###
@@ -34,7 +35,7 @@ plot_input <- enrichr_data %>% dplyr::mutate(label = ifelse(enrichr_data$Adjuste
 ####plot####
 library(ggplot2)
 
-plot<-ggplot(plot,aes(x=Odds.Ratio, y=-log10(Adjusted.P.value), size=-log10(Adjusted.P.value), fill=label)) +
+plot<-ggplot(plot_input,aes(x=Odds.Ratio, y=-log10(Adjusted.P.value), size=-log10(Adjusted.P.value), fill=label)) +
             geom_point(alpha=0.6, color="black", pch=21) +
             geom_text(aes(label = ifelse(Adjusted.P.value <= 0.05, as.character(Term), "") ,size = -log10(Adjusted.P.value)),
                       hjust=0, vjust=0,color = "black", check_overlap = F)+
