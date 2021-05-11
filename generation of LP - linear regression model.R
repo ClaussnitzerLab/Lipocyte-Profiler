@@ -8,7 +8,7 @@ setwd("/Users/sophiestrobel/Desktop/LP/data raw/LP data import")
 # names(cluster)[names(cluster) == "FID"] <- "patientID"
 
 ###load LP data set#####
-combined_data<-read.csv(file = "LP_data.csv.csv")
+combined_data<-read.csv(file = "LP_data.csv")
 
 
 ###merge data sets#####
