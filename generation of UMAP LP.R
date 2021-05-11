@@ -3,7 +3,7 @@
 setwd("/Users/sophiestrobel/Desktop/LP/data raw/LP data import")
 
 ###load LP data set#####
-combined_data<-read.csv(file = "LP_data.csv.csv")
+combined_data<-read.csv(file = "LP_data.csv")
 
 ###subset dataset#####
 #ffa<-subset(combined_data, combined_data$FFA == "1")
